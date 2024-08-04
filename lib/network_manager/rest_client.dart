@@ -16,4 +16,9 @@ abstract class RestClient {
 
   @GET('https://jsonplaceholder.typicode.com/posts/{post_id}/comments')
   Future<List<CommentModel>> fetchComments(@Path("post_id") int postId);
+
+  @GET('post')
+  Future<String> cancelRequest(
+    @CancelRequest() CancelToken cancelToken,
+  );
 }

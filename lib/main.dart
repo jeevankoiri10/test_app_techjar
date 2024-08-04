@@ -2,8 +2,11 @@ import 'package:flutter/material.dart';
 import 'package:test_app_techjar/home_screen.dart';
 import 'package:test_app_techjar/pages/comment_screen.dart';
 import 'package:test_app_techjar/pages/post_screen.dart';
+import 'package:path_provider/path_provider.dart';
 
-void main() {
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  var directory = await getApplicationCacheDirectory();
   runApp(const MyApp());
 }
 
