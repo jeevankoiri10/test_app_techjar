@@ -46,7 +46,7 @@ class _CommentScreenState extends State<CommentScreen> {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.purple,
-        title: Text('TechJar Test App'),
+        title: Text('TechJar Test App: Post ${widget.post_id}'),
         titleTextStyle: TextStyle(
           color: Colors.white,
           fontWeight: FontWeight.bold,
