@@ -1,6 +1,30 @@
 # A simple listing and detail showcase application using APIs
 
-## List me
+## Screenshots of the app are:
+
+### Homescreen with list of posts 
+![qemu-system-x86_64_8PYGkYAMER](https://github.com/user-attachments/assets/af3384ae-0ecc-4cfb-9d99-3d0f7271c0b7)
+![qemu-system-x86_64_gIpirMbxwQ](https://github.com/user-attachments/assets/3d667a3e-1f97-4061-b9d1-15a82a22e05f)
+
+### After clicking on the post it will show the posts and the comments of that post below it. 
+
+![qemu-system-x86_64_V50Ql1iZH7](https://github.com/user-attachments/assets/f3acb564-f4e8-4df8-bce8-8de79aa73e81)
+![qemu-system-x86_64_Z1gjcOvj6O](https://github.com/user-attachments/assets/4501db28-5c41-4d40-b864-6eee5ec90adf)
+
+
+Used the retrofit library for implementing the APIs. 
+Used the naming conventions.
+Used dio for caching
+
+### Thank You
+--- 
+---
+
+
+
+
+
+## These are the task given:
 
 ### What you need to do?
 
